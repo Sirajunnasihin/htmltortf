@@ -1,8 +1,8 @@
 <?php
-namespace HtmlToRtf;
+namespace Gedeeinstein\HtmlToRtf;
 
 use DOMDocument;
-use HtmlToRtf\Node;
+use Gedeeinstein\HtmlToRtf\Node;
 
 // References:
 //  - https://www.safaribooksonline.com/library/view/RTF+Pocket+Guide/9781449302047/ch01.html
