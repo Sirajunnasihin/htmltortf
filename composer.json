@@ -19,13 +19,13 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Gedeeinstein\\HtmlToRtf\\": "src/HtmlToRtf"
+            "Gedeeinstein\\HtmlToRtf\\: "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Gedeeinstein\\HtmlToRtf\\ServiceProvider"
+                "Gedeeinstein\\HtmlToRtf\\HtmlToRtfServiceProvider"
             ],
             "aliases": {
                 "Avatar": "Gedeeinstein\\HtmlToRtf\\Facade"
