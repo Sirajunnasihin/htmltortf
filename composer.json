@@ -19,7 +19,7 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Gedeeinstein\\HtmlToRtf\\: "src/"
+            "Gedeeinstein\\HtmlToRtf\\: "src"
         }
     },
     "extra": {
@@ -28,7 +28,7 @@
                 "Gedeeinstein\\HtmlToRtf\\HtmlToRtfServiceProvider"
             ],
             "aliases": {
-                "Avatar": "Gedeeinstein\\HtmlToRtf\\Facade"
+                "HtmlToRtf": "Gedeeinstein\\HtmlToRtf\\Facade"
             }
         }
     },
