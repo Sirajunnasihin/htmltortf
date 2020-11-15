@@ -1,0 +1,26 @@
+{
+    "name": "gedeeinstein/php-html-to-rtf-converter",
+    "description": "PHP HTML to RTF CONVERTER",
+    "authors": [
+        {
+            "name": "Marjin Mensinga Released By I Gede Adi Surya Eka Pramana Putra",
+            "email": "gedeeinstein@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gedeeinstein\\HtmlToRtf\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gedeeinstein\\HtmlToRtf\\ServiceProvider"
+            ],
+            "aliases": {
+                "Avatar": "Gedeeinstein\\HtmlToRtf\\Facade"
+            }
+        }
+    }
+}
