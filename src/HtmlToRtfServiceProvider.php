@@ -8,7 +8,7 @@ class WordTemplateServiceProvider extends BaseServiceProvider
 {
     public function register()
     {
-        $this->app->bind('word-template', function() {
+        $this->app->bind('php-html-to-rtf-converter', function() {
             return new HtmlToRtf;
         });
     }
