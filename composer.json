@@ -7,10 +7,19 @@
             "email": "gedeeinstein@gmail.com"
         }
     ],
-    "require": {},
+        "keywords": [
+        "laravel","html",
+        "rtf"
+    ],
+    "homepage": "https://github.com/gedeeinstein/php-html-to-rtf-converter",
+    "license": "MIT",
+    "require": {
+         "php": ">=5.6",
+    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Gedeeinstein\\HtmlToRtf\\": "src"
+            "Gedeeinstein\\HtmlToRtf\\": "src/HtmlToRtf"
         }
     },
     "extra": {
@@ -22,5 +31,6 @@
                 "Avatar": "Gedeeinstein\\HtmlToRtf\\Facade"
             }
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
