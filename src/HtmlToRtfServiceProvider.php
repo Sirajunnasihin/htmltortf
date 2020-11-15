@@ -1,6 +1,6 @@
 <?php
 
-namespace Gedeeinstein\HtmlToRtf;
+namespace HtmlToRtf;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;;
 
