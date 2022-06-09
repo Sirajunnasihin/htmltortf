@@ -36,7 +36,7 @@
                 "HtmlToRtf\\HtmlToRtfServiceProvider"
             ],
             "aliases": {
-                "HtmlToRtf": "HtmlToRtf\\Facade\HtmlToRtf"
+                "HtmlToRtf": "HtmlToRtf\\Facade\\HtmlToRtf"
             }
         }
     },
