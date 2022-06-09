@@ -1,9 +1,9 @@
 {
-    "name": "sirajunnasihin/php-html-to-rtf-converter",
+    "name": "sirajunnasihin/htmltortf",
     "description": "PHP HTML to RTF CONVERTER",
     "authors": [
         {
-            "name": "Marjin Mensinga Released By I Gede Adi Surya Eka Pramana Putra",
+            "name": "Marjin Mensinga Released By I Gede Adi Surya Eka Pramana Putra and custom by Sirajun Nasihin",
             "email": "gedeeinstein@gmail.com"
         }
     ],
@@ -11,7 +11,7 @@
         "laravel","html",
         "rtf"
     ],
-    "homepage": "https://github.com/sirajunnasihin/php-html-to-rtf-converter",
+    "homepage": "https://github.com/sirajunnasihin/htmltortf",
     "license": "MIT",
     "require": {
          "php": ">=5.6"
@@ -28,7 +28,7 @@
                 "HtmlToRtf\\HtmlToRtfServiceProvider"
             ],
             "aliases": {
-                "HtmlToRtf": "HtmlToRtf\\Facade"
+                "HtmlToRtf": "HtmlToRtf\\Facade\HtmlToRtf"
             }
         }
     },
