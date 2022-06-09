@@ -12,8 +12,7 @@
         },
         {
             "name": "Sirajun Nasihin",
-            "email": "sirajunnasihin7@gmail.com",
-            "homepage": "sirajunnasihin.my.id"
+            "email": "sirajunnasihin7@gmail.com"
         }
     ],
     "keywords": [
@@ -36,7 +35,7 @@
                 "sirajunnasihin\\HtmlToRtf\\HtmlToRtfServiceProvider"
             ],
             "aliases": {
-                "HtmlToRtf": "sirajunnasihin\\HtmlToRtf\\Facades\HtmlToRtf"
+                "HtmlToRtf": "sirajunnasihin\\HtmlToRtf\\Facades\\HtmlToRtf"
             }
         }
     },
