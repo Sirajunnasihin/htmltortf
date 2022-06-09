@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "sirajunnasihin\\HtmlToRtf\\HtmlToRtfServiceProvider"
+                "HtmlToRtf\\HtmlToRtfServiceProvider"
             ],
             "aliases": {
-                "HtmlToRtf": "sirajunnasihin\\HtmlToRtf\\Facades\\HtmlToRtf"
+                "HtmlToRtf": "HtmlToRtf\\Facades\\HtmlToRtf"
             }
         }
     },
