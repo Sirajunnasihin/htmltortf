@@ -25,10 +25,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HtmlToRtf\HtmlToRtfServiceProvider"
+                "HtmlToRtf\\HtmlToRtfServiceProvider"
             ],
             "aliases": {
-                "HtmlToRtf": "HtmlToRtf\Facade"
+                "HtmlToRtf": "HtmlToRtf\\Facade"
             }
         }
     },
