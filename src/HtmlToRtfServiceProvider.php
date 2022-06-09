@@ -4,7 +4,7 @@ namespace sirajunnasihin\HtmlToRtf;
 
 use Illuminate\Support\ServiceProvider;
 
-class WordTemplateServiceProvider extends ServiceProvider
+class HtmlToRtfServiceProvider extends ServiceProvider
 {
     public function register()
     {
