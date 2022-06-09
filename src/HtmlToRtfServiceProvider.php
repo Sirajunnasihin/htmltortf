@@ -1,20 +1,32 @@
 <?php
 
-namespace HtmlToRtf;
+namespace sirajunnasihin\HtmlToRtf;
 
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;;
+use Illuminate\Support\ServiceProvider;
 
-class WordTemplateServiceProvider extends BaseServiceProvider
+class WordTemplateServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->bind('php-html-to-rtf-converter', function() {
+        $this->app->bind('htmltortf', function() {
             return new HtmlToRtf;
         });
+
+        $this->app->booting(function(){
+            $loader = \Illuminate\Foundation\AliasLoader::getInstance();
+            $loader->alias('HtmlToRtf', 'sirajunnasihin\HtmlToRtf\Facades\HtmlToRtf');
+        });
+    }
+
+    public function provides()
+    {
+        return array('htmltortf');
     }
 
     public function boot()
     {
         //
     }
+
+
 }

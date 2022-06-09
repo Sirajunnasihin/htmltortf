@@ -1,5 +1,5 @@
 <?php
-namespace HtmlToRtf;
+namespace sirajunnasihin\HtmlToRtf;
 
 use DOMDocument;
 use HtmlToRtf\Node;
