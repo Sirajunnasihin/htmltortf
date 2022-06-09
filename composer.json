@@ -26,16 +26,16 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "HtmlToRtf\\": "src"
+            "sirajunnasihin\\HtmlToRtf\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HtmlToRtf\\HtmlToRtfServiceProvider"
+                "sirajunnasihin\\HtmlToRtf\\HtmlToRtfServiceProvider"
             ],
             "aliases": {
-                "HtmlToRtf": "HtmlToRtf\\Facades\\HtmlToRtf"
+                "HtmlToRtf": "sirajunnasihin\\HtmlToRtf\\Facades\\HtmlToRtf"
             }
         }
     },
